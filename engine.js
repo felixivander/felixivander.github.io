@@ -15,6 +15,9 @@
             document.getElementById("mtwo").classList.toggle("mtwo");
             document.getElementById("mthree").classList.toggle("mthree");
             document.getElementById("toggle").style.top = x.toString()+'px';
+            if (window.innerWidth < 991){
+                document.getElementById("bott").click()
+            }
         }
 
     
