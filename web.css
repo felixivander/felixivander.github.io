@@ -472,8 +472,9 @@ a:hover{
     height:auto;
 }
 .mone{
-    -webkit-transform: rotate(-45deg) translate(-8px, 8px);
+    -webkit-transform: rotate(32deg);
   transform: rotate(32deg);
+	-ms-transform: rotate(32deg);
   transform-origin: center left;
   width: 41.34px;
 }
@@ -481,8 +482,9 @@ a:hover{
     opacity: 0;
 }
 .mthree{
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(-32deg);
     transform: rotate(-32deg);
+	-ms-transform: rotate(-32deg);
     transform-origin: center left;
     width: 41.34px;
 }
