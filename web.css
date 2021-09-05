@@ -357,9 +357,7 @@ a:hover{
     .toggle{
         display:block;
     }
-	.dropdown{
-        top:-1000px;
-    }
+	
  }
  
  @media (min-width : 991px){
@@ -378,9 +376,7 @@ a:hover{
     .toggle{
         display:none;
     }
-	.dropdown{
-        top:0px;
-    }
+	
  }
  
  html:not([data-scroll='0']) .titl{
