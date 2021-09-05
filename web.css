@@ -442,6 +442,8 @@ a:hover{
   }
 .toggle:hover .menu{
     transform: rotateX(180deg);
+	-ms-transform: rotateX(180deg);
+	-webkit-transform: rotateX(180deg);
     opacity: 1;
     width: 35px;
 }
@@ -476,6 +478,8 @@ a:hover{
   transform: rotate(32deg);
 	-ms-transform: rotate(32deg);
   transform-origin: center left;
+	-ms-transform-origin: center left;
+  -webkit-transform-origin: center left;
   width: 41.34px;
 }
 .mtwo{
@@ -486,6 +490,8 @@ a:hover{
     transform: rotate(-32deg);
 	-ms-transform: rotate(-32deg);
     transform-origin: center left;
+	-ms-transform-origin: center left;
+  -webkit-transform-origin: center left;
     width: 41.34px;
 }
 .dropmenu{
