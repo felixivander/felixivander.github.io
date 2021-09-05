@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html data-scroll='0' lang="en">
+<html data-scroll='0' lang="en" >
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" type="image/png" href="icon.png">
+    <link rel="shortcut icon" href="icon.png">
     <title>Felix Ivander</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,12 +12,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sora&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-    <script>
-        document.addEventListener("scroll", () => {
-        document.documentElement.dataset.scroll = window.scrollY;
-      });</script>
+    <script src='engine.js'></script>
 </head>
 <body">
+    <div id='dropdown' class='hide'>
+        <div class='dropmenu'><span>&#402;</span>elix ivander</div>
+        <hr>
+        <div class='dropmenu'><a href="research.html" class='a3'>research.</i></a></div>
+        <hr>
+        <div class='dropmenu'><a href="stuff.html" class='a3'>stuff.</i></a></div>
+        <hr>
+        <div class='dropmenu2'><div class='navic2'><a href="https://www.linkedin.com/in/felixivander/"class='a3'><i class="fa fa-linkedin-square"></i></a></div>
+        
+        <div class='navic2'><a href="https://www.github.com/felixivander/"class='a3'><i class="fa fa-github"></i></a></div>
+        <div class='navic2'><a href="mailto:felix.ivander@mail.utoronto.ca"class='a3'><i class="fa fa-envelope"></i></a></div></div>
+    
+    </div>
+    <div class='toggle' onclick='menu()' id='toggle'>
+        <span class='menu' id='mone'></span><span class='menu' id='mtwo'></span><span class='menu' id='mthree'></span>
+        
+    </div> 
     <div class='titl' id='title'>
         <div class='Felix-Container'><div class='Felix'><span>&#402;</span>elix ivander</div></div>
         <div class='Nav-Container'>
@@ -72,6 +86,7 @@
 </div>
 <div class='bott' id='bott'>
     <div><span>&copy</span> Felix Ivander 2021.</div> 
-</div>    
+</div>
+   
 </body>
 </html>
