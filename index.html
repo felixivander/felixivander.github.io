@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <script src='engine.js'></script>
 </head>
-<body">
+<body>
     <div id='dropdown' class='hide'>
         <div class='dropmenu'><span>&#402;</span>elix ivander</div>
         <hr>
@@ -53,15 +53,24 @@
 <div class='main'>
     
     <div class='intro'>
-        <div class='intpic'><img src='Photo.jpg' class='picture'></div>
-        <div class='intext'>
-            <div class='intextup'>I'm a fourth-year undergraduate at the <a href='https://www.utoronto.ca/' class='a2'>University of Toronto</a>, 
+        <div class='intpic' id='fpic'><img src='Photo.jpg' class='picture'></div>
+        <div class='intext' id='abcont'>
+            <div class='intextup' id='ab'>I'm a fourth-year undergraduate at the <a href='https://www.utoronto.ca/' class='a2'>University of Toronto</a>, 
                 studying <a href='https://www.chemistry.utoronto.ca/' class='a2'>Chemistry</a>, 
                 <a href='https://www.physics.utoronto.ca/' class='a2'>Physics</a>, 
-                and <a href='https://www.math.toronto.edu/cms/' class='a2'>Mathematics</a>. Currently, I am working under Prof. <a href='https://sites.chem.utoronto.ca/chemistry/dsegal/' class='a2'>Dvira Segal</a> in studying quantum transport at the nanoscale.
+                and <a href='https://www.math.toronto.edu/cms/' class='a2'>Mathematics</a>. Currently, I am working under Prof. <a href='https://sites.chem.utoronto.ca/chemistry/dsegal/' class='a2'>Dvira Segal</a> 
+                to study quantum transport at the nanoscale.
                 We will be exploring neighboring topics for my final <a href='https://www.chemistry.utoronto.ca/undergraduate/current-students/research-opportunities/chm499-intro-research-chemistry' class='a2'>thesis</a>.
             </div>
-            <div class='intextbot'><div class='cont'><span class="arrow one"></span><span class="arrow two"></span><span class="arrow three"></span></div></div>
+            <div class='extra' id='ex1'>
+                <hr>
+                I moved from Indonesia in 2018, initially to read philosophy. In my first year, I found chemistry and physics much more
+                entertaining &ndash; I immediately changed discipline. <hr>
+                I have many interests, but now I focus on those in the intersection of theory, experiment, and computation. <hr>
+                In my spare time I enjoy working out, playing football or badminton, and watching movies. I also dabble in
+                reading non-fiction books.
+            </div>
+            <div class='intextbot'onclick='about()'><div class='cont' id="arrowcont"><span class="arrow one"></span><span class="arrow two"></span><span class="arrow three"></span></div></div>
         </div>
         
     </div>
@@ -77,7 +86,7 @@
                     Prof. <a href='https://mse.utoronto.ca/faculty-staff/professors/matsuura/' class='a2'>Naomi Matsuura</a>, in using <a href='https://en.wikipedia.org/wiki/Surface-enhanced_Raman_spectroscopy' class='a2'>SERS</a>-<a href='https://en.wikipedia.org/wiki/Machine_learning' class='a2'>ML</a> to diagnose cardiovascular disease biomarkers in blood.
                     I also worked briefly with <a href='https://www.linkedin.com/in/remyko/?originalSubdomain=ca' class='a2'>Remy Ko </a> to functionalize gold substrates for SERS and to examine different <a href='https://en.wikipedia.org/wiki/Raman_spectroscopy' class='a2'>Raman</a> elements.
                 </div>
-                <div class='intextbot'><div class='cont'><span class="arrow one"></span><span class="arrow two"></span><span class="arrow three"></span></div></div>
+                <div class='intextbot' ><div class='cont'><span class="arrow one"></span><span class="arrow two"></span><span class="arrow three"></span></div></div>
             </div>
         
         <div class='intpicr'><img src='res1.png' class='picture'></div>

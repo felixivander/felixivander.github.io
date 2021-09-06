@@ -16,10 +16,17 @@
             document.getElementById("mthree").classList.toggle("mthree");
             document.getElementById("toggle").style.top = x.toString()+'px';
             if (window.innerWidth < 991){
-                document.getElementById("bott").click();
+                document.getElementById("bott").click()
                 $("#bott").trigger('click');
                 $("#bott").trigger('touchstart');
             }
+        }
+        function about(){
+            document.getElementById("fpic").classList.toggle("hidepic");
+            document.getElementById("ab").classList.toggle("intextfull");
+            document.getElementById("abcont").classList.toggle("intextcontfull");
+            document.getElementById("ex1").classList.toggle("expand");
+            document.getElementById('arrowcont').classList.toggle('arrowref');
         }
 
     
