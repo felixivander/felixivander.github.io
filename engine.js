@@ -28,5 +28,12 @@
             document.getElementById("ex1").classList.toggle("expand");
             document.getElementById('arrowcont').classList.toggle('arrowref');
         }
+        function toggler(x){
+            document.getElementById("pic".concat(x)).classList.toggle("hidepic");
+            document.getElementById("ab".concat(x)).classList.toggle("intextfull");
+            document.getElementById("abcont".concat(x)).classList.toggle("intextcontfull");
+            document.getElementById("ex".concat(x)).classList.toggle("expand");
+            document.getElementById('arrowcont'.concat(x)).classList.toggle('arrowref');
+        }
 
     
