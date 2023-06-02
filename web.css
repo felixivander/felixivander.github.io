@@ -58,7 +58,7 @@ header div{
     justify-content: space-between;
     position:fixed;
     z-index: 100;
-    transition: 0.25s;
+    transition: 0.75s;
     transition-timing-function:cubic-bezier(.17,.67,.83,.67);
     
 }
@@ -117,9 +117,24 @@ a:hover{
     text-decoration-line: underline;
     text-decoration-style: dashed;
     text-decoration-thickness: 2pt;
+    z-index: 3;
 }
 .a2:hover{
     color: #333131;
+    transition: 0.2s;
+    opacity: 0.7;
+    
+}
+
+.a4{
+    color: whitesmoke;
+    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 2pt;
+}
+.a4:hover{
+    color: white;
     transition: 0.2s;
     opacity: 0.7;
     
@@ -153,6 +168,20 @@ a:hover{
     width: 1200px;
     max-width: 90vw;
 }
+
+.main2{
+    color:black;
+    display: block;
+    margin-top: 1vw;
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 90vw;
+    z-index: 2;
+    height:auto;
+    position: relative;
+}
+
 .item{
     width:100%;
     background-color: #d1d8e0;
@@ -175,6 +204,7 @@ a:hover{
     flex-wrap: wrap;
     align-items: stretch;
     height:auto;
+    z-index: 3;
 }
 .Pic{
     width:100%;
@@ -193,6 +223,37 @@ a:hover{
     padding-bottom: 7vh;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+}
+
+.Pic2{
+    width:100%;
+    background-color: white;
+    height:auto;
+    font-family: 'Kaisei Tokumin', serif;
+    font-size:70px;
+    margin:0px;
+    position: relative;
+    background-image: url('Main.jpg');
+    background-repeat: no-repeat;
+    text-align:center;
+    object-fit: cover;
+    color: whitesmoke;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.picbelow{
+    margin:0px;
+    width:84%;
+    height: auto;
+    margin-right:8%;
+    margin-left:8%;
+    background: rgba(0,0,0,0.6);
+    font-family: 'Kaisei Tokumin', serif;
+    font-size:4vh;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 .intpic{
     margin:0px;
@@ -225,16 +286,16 @@ a:hover{
     padding-bottom:0%;
     width:68%;
     background-image: linear-gradient(45deg, #D3CCE3, whitesmoke);
-;
     min-width: 300px;
     flex-basis: 68%;
     flex-grow: 0.8;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    visibility: visible;
 }
 .intextup{
-    margin:0px;
+    margin:auto;
     width:84%;
     height: auto;
     padding-right:8%;
@@ -243,6 +304,7 @@ a:hover{
 }
 .intextbot{
     margin:0 auto;
+    margin-top: 20px;
     width:100%;
     padding-bottom:10px;
     height: auto;
@@ -581,7 +643,7 @@ hr {
     
 }
 .hidepic{
-    display:none;
+    display:none !important;
 }
 .intextfull{
     width:84%;
@@ -593,17 +655,17 @@ hr {
    
     flex-grow: 1;
     flex-basis: 100%;
-    transition: 0.2s;
+    transition: 1s;
 }
 .extra{
-    height:0px;
-    opacity:0;
+    display:none;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     -webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     -ms-webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .expand{
     height:auto;
+    display:block !important;
     transition:0.5s;
     padding-left: 8%;
     padding-right: 8%;
