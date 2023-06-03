@@ -52,7 +52,7 @@ header div{
     padding-top: 0px;
     margin-top: 0px;
     padding-left: 10px;
-    background-image: linear-gradient(20deg, rgba(0,0,0,0) 30%, rgb(195, 55, 100,1) 50%, rgb(29, 38, 113) 100%);
+    background-image: linear-gradient(20deg, rgba(0,0,0,0) 30%, #FF0060 50%, rgb(29, 38, 113) 100%);
     background-size: 200% auto;
     display: inline-flex;
     justify-content: space-between;
@@ -205,7 +205,7 @@ a:hover{
     font-size:calc(12px + 1.2vw);
     color: whitesmoke;
     border-radius: 25px;
-    background-image: linear-gradient(30deg, #c33764 0%, #1d2671 60%);
+    background-image: linear-gradient(30deg, #FF0060 0%, #0079FF 60%);
     -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: black;
 }
@@ -322,7 +322,7 @@ a:hover{
     padding-left:0%;
     padding-bottom:0%;
     width:68%;
-    background-image: linear-gradient(45deg, #D3CCE3, whitesmoke);
+    background-image: linear-gradient(45deg, #FFEDED, whitesmoke);
     min-width: 300px;
     flex-basis: 68%;
     flex-grow: 0.8;
@@ -350,7 +350,7 @@ a:hover{
     text-align:center;
     align-items: center;
     padding-top: 0%;
-    background-image: linear-gradient(80deg, #c33764 0%, #1d2671 25%, #c33764 50%, #1d2671 75%, #c33764 100%);
+    background-image: linear-gradient(80deg, #FF0060 0%, #0079FF 25%,#FF0060 50%, #0079FF 75%, #FF0060 100%);
     background-size: 250% auto;
    
 }
@@ -504,7 +504,7 @@ a:hover{
     padding-left: 0px;
     padding-bottom:10px;
     padding-top:10px;
-    background-image: linear-gradient(80deg, #c33764 0%, #1d2671 25%, #c33764 50%, #1d2671 75%, #c33764 100%);
+    background-image: linear-gradient(80deg, #FF0060 0%, #0079FF 25%, #FF0060 50%, #0079FF 75%, #FF0060 100%);
     background-size: 250% auto;
     display: inline-flex;
     justify-content: center;
