@@ -293,7 +293,7 @@ a:hover{
     background-color: white;
     height:auto;
     font-family: 'Kaisei Tokumin', serif;
-    font-size:7vw;
+    font-size:5vw;
     margin:0px;
     position: relative;
     background-image: url('Main.jpg');
@@ -507,6 +507,10 @@ a:hover{
         font-size: 20vw;
         padding-top: 7vw;
     }
+    .Pic2{
+        font-size: 8vw;
+        padding-top: 7vw;
+    }
     .intro{
         margin-bottom: 5vw;
     }
@@ -524,8 +528,12 @@ a:hover{
         display : inline-flex;
     }
     .Pic{
-        font-size: 105px;
+        font-size: 108px;
         padding-top: 8vw;
+    }
+    .Pic2{
+        font-size: 70px;
+        padding-top: 7vw;
     }
     .intro{
         margin-bottom: 2vw;
@@ -766,3 +774,15 @@ hr {
     padding-bottom: 10px;
     padding-top: 0px;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
