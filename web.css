@@ -296,7 +296,7 @@ a:hover{
     font-size:5vw;
     margin:0px;
     position: relative;
-    background-image: url('main.jpg');
+    background-image: url('Main.jpg');
     background-repeat: no-repeat;
     text-align:center;
     object-fit: cover;
@@ -317,7 +317,7 @@ a:hover{
     font-size:5vw;
     margin:0px;
     position: relative;
-    background-image: url('main.jpg');
+    background-image: url('Main.jpg');
     background-repeat: no-repeat;
     text-align:center;
     object-fit: cover;
@@ -508,7 +508,7 @@ a:hover{
         padding-top: 7vw;
     }
     .Pic2{
-        font-size: 8vw;
+        font-size: 9vw;
         padding-top: 7vw;
     }
     .intro{
@@ -520,7 +520,9 @@ a:hover{
     .toggle{
         display:block;
     }
-    
+    .picbelow{
+        font-size: 4vw;
+    }
  }
  
  @media (min-width : 991px){
@@ -532,7 +534,7 @@ a:hover{
         padding-top: 8vw;
     }
     .Pic2{
-        font-size: 70px;
+        font-size: 78px;
         padding-top: 7vw;
     }
     .intro{
@@ -543,6 +545,9 @@ a:hover{
     }
     .toggle{
         display:none;
+    }
+    .picbelow{
+        font-size: 50px;
     }
     
  }
